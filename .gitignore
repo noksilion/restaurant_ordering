@@ -1,9 +1,9 @@
 # Compiled class file
 
 *.class
-.idea/
+/Users/AndreyKasianov/Documents/restaurant-ordering/.idea
 META-INF/
-target/
+/Users/AndreyKasianov/Documents/restaurant-ordering/target
 *.iml
 *.txt
 *.bin
