@@ -1,6 +1,6 @@
 package com.netcracker.kasianova.console;
 
-import com.netcracker.kasianova.dao.fileDAO.RestaurantBinaryFileDAO;
+import com.netcracker.kasianova.dao.filedao.RestaurantBinaryFileDAO;
 import com.netcracker.kasianova.entities.Check;
 import com.netcracker.kasianova.entities.Order;
 import com.netcracker.kasianova.entities.Restaurant;

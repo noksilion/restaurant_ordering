@@ -1,4 +1,4 @@
-package com.netcracker.kasianova.dao.dataBaseDAO;
+package com.netcracker.kasianova.dao.databasedao;
 
 import com.netcracker.kasianova.dao.AbstractDAO;
 

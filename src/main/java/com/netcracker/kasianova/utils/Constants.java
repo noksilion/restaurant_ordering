@@ -6,7 +6,7 @@ public enum Constants {
     INSTANCE;
     public static final String  fileName =  "SavedRestaurant.bin";
 
-    public static final String  filePath ="com/netcracker/kasianova/dao" + File.separator+ "fileDAO"
+    public static final String  filePath ="com/netcracker/kasianova/dao" + File.separator+ "filedao"
             +File.separator ;
 
     public String getFileName()

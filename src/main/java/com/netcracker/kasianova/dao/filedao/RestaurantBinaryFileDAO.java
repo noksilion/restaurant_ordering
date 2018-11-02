@@ -1,4 +1,4 @@
-package com.netcracker.kasianova.dao.fileDAO;
+package com.netcracker.kasianova.dao.filedao;
 
 import java.io.File;
 import java.io.FileInputStream;
