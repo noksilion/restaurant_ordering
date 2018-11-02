@@ -106,8 +106,8 @@ public enum ApplicationFunctions implements Serializable {
         String answerCheck = "";
         while ("".equals(answerCheck))
         {
-            System.out.println("What do you want to do with this check /n 1 - add dish /n 2 - print check  " +
-                    "/n3 - bring not cooked dishes to kitchen");
+            System.out.println("What do you want to do with this check \n 1 - add dish \n 2 - print check  " +
+                    "\n3 - bring not cooked dishes to kitchen");
 
             String answerCheck1 = scanner.nextLine();
 
@@ -122,7 +122,7 @@ public enum ApplicationFunctions implements Serializable {
                 orderService.addMoreDishesToCheck(staff, check.getName(), dish, numberDishes);
 
                 while (true) {
-                    System.out.println("Do you want to work more with this check /n 1 - yes /n 2 - no");
+                    System.out.println("Do you want to work more with this check \n 1 - yes \n 2 - no");
                     String answerCheck2 = scanner.nextLine();
 
                     if ("1".equals(answerCheck2)) {
@@ -165,7 +165,7 @@ public enum ApplicationFunctions implements Serializable {
                 answerCheck = answerCheck1;
 
                 while (true) {
-                    System.out.println("Do you want to work more with this check /n 1 - yes /n 2 - no");
+                    System.out.println("Do you want to work more with this check \n 1 - yes \n 2 - no");
                     String answerCheck2 = scanner.nextLine();
 
                     if ("1".equals(answerCheck2)) {

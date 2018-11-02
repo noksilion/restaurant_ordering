@@ -77,7 +77,7 @@ public enum RunApplication {
             }
             else if (!staff.getListOrders().isEmpty())
             {
-                System.out.println("Do you want to get new order or existing ? /n1 - existing /n2 - new ");
+                System.out.println("Do you want to get new order or existing ? \n1 - existing \n2 - new ");
 
                 String answer = scanner.nextLine();
                 if ("2".equals(answer))
